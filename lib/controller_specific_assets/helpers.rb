@@ -10,7 +10,6 @@ module ControllerSpecificAssetsHelpers
 
   private
 
-
   def generate_asset_path(path, ext)
     pathname = Rails.application.assets.resolve("#{path}.#{ext}")
     if pathname then "#{path}.#{ext}" else "application.#{ext}" end
