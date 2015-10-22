@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    controller_specific_assets (0.0.1)
+    controller-specific-assets (0.1.2)
       rails (~> 4.2.1)
 
 GEM
@@ -102,5 +102,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  controller_specific_assets!
+  controller-specific-assets!
   sqlite3
