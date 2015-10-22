@@ -6,8 +6,8 @@ The idea is simple: load controller-specific js/css assets, so that you can deci
 ## Installation
 Add the gem to your Gemfile:
 
-``` 
-gem 'controller-specific-assets', '~> 0.1.2'
+```
+gem 'controller-specific-assets', '~> 0.1.25'
 ```
 
 And run ``` bundle install ``` from your project's directory.
@@ -16,7 +16,7 @@ And run ``` bundle install ``` from your project's directory.
 
 In your layout file, replace the ``` stylesheet_link_tag ``` and ``` javascript_include_tag ``` with the gem's helpers: ``` controller_javascript_tag ``` and ``` controller_stylesheet_tag ```.
 
-When you're in a view, them gem looks for css and js files named ``` controller_[your_controller_name].(js/css) ``` files and adds them. If you don't have controller-specific files, it reverts to ``` application.(js/css) ```. 
+When you're in a view, them gem looks for css and js files named ``` controller_[your_controller_name].(js/css) ``` files and adds them. If you don't have controller-specific files, it reverts to ``` application.(js/css) ```.
 
 The gem automatically adds css and js files starting with ```controller_``` to the precompile assets list, so you don't have to.
 
