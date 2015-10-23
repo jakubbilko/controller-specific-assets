@@ -26,7 +26,8 @@ When you're in a view, them gem looks for css and js files named ``` controller_
 The gem automatically adds css and js files starting with ```controller_``` to the precompile assets list, so you don't have to.
 
 ## Using the asset paths
-If you just want the raw js/css paths (to use with gems like [RequireJS](https://github.com/jwhitley/requirejs-rails), use the ```controller_javascript_url``` and ```controller_stylesheet_url``` helper methods.
+If you just want the raw js/css paths (to use with gems like [RequireJS](https://github.com/jwhitley/requirejs-rails)), use the ```controller_javascript_url``` and ```controller_stylesheet_url``` helper methods.
 
 ## TODO
 * add support for view-specific assets (if you are a hardcore bandwidth-optimization freak)
+* maybe add some config for the file prefixes?
