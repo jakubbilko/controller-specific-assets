@@ -34,7 +34,7 @@ class ControllerSpecificAssetsTest < ActiveSupport::TestCase
     def params
       { :controller => "users" }
     end
-    assert_equal '<link rel="stylesheet" media="screen" href="/stylesheets/controller_users.css" />', controller_javascript_tag
+    assert_equal '<link rel="stylesheet" media="screen" href="/stylesheets/controller_users.css" />', controller_stylesheet_tag
   end
 
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    controller-specific-assets (0.1.2)
+    controller-specific-assets (0.1.25)
       rails (~> 4.2.1)
 
 GEM
