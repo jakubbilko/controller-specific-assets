@@ -8,6 +8,14 @@ module ControllerSpecificAssetsHelpers
     stylesheet_link_tag generate_asset_path("controller_#{params[:controller]}", 'css')
   end
 
+  def controller_javascript_url
+    generate_asset_path("controller_#{params[:controller]}", 'js')
+  end
+
+  def controller_stylesheet_url
+    generate_asset_path("controller_#{params[:controller]}", 'css')
+  end
+
   private
 
   def generate_asset_path(path, ext)

@@ -1,3 +1,3 @@
 module ControllerSpecificAssets
-  VERSION = "0.1.25"
+  VERSION = "0.2.25"
 end

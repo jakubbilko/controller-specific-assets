@@ -12,7 +12,7 @@ The idea is simple: load controller-specific js/css assets, so that you can deci
 Add the gem to your Gemfile:
 
 ```
-gem 'controller-specific-assets', '~> 0.1.25'
+gem 'controller-specific-assets', '~> 0.2.25'
 ```
 
 And run ``` bundle install ``` from your project's directory.
@@ -25,6 +25,8 @@ When you're in a view, them gem looks for css and js files named ``` controller_
 
 The gem automatically adds css and js files starting with ```controller_``` to the precompile assets list, so you don't have to.
 
+## Using the asset paths
+If you just want the raw js/css paths (to use with gems like [RequireJS](https://github.com/jwhitley/requirejs-rails), use the ```controller_javascript_url``` and ```controller_stylesheet_url``` helper methods.
+
 ## TODO
 * add support for view-specific assets (if you are a hardcore bandwidth-optimization freak)
-* add support for requireJS (probably with the requirejs-rails gem)
