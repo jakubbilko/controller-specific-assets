@@ -1,3 +1,8 @@
+[![Gem](https://img.shields.io/gem/v/controller-specific-assets.svg?style=flat-square)](https://rubygems.org/gems/controller-specific-assets)
+[![Build Status](https://travis-ci.org/jakubbilko/controller-specific-assets.svg?branch=master)](https://travis-ci.org/jakubbilko/controller-specific-assets)
+
+***
+
 # Controller Specific Assets
 This gem was created to help solve the problem in asset (css/js) management in Rails applications. Usually, all of the javascript and css files are loaded on every page in your app. This kinda sucks for big apps that have a lot of front-end code.
 
